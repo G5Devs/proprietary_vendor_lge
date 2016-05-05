@@ -45,8 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/msm_tsens_logging:system/bin/msm_tsens_logging \
     vendor/lge/g5-common/proprietary/bin/myftm:system/bin/myftm \
     vendor/lge/g5-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/g5-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/lge/g5-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lge/g5-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/lge/g5-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g5-common/proprietary/bin/qseecomd:system/bin/qseecomd \
