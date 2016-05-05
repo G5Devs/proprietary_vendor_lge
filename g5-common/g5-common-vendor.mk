@@ -20,4 +20,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService
 
+PRODUCT_PACKAGES += \
+    libGLES_android
+
 $(call inherit-product, vendor/lge/g5-common/g5-common-vendor-blobs.mk)
