@@ -140,9 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libq3d.so:system/lib64/libq3d.so \
     vendor/lge/g5-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/lge/g5-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-    vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/g5-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/lge/g5-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/lge/g5-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
@@ -182,8 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libq3d.so:system/lib/libq3d.so \
     vendor/lge/g5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g5-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/lge/g5-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/g5-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/lge/g5-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g5-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g5-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
