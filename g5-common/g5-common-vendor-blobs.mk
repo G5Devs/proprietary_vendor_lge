@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/seempd:system/bin/seempd \
     vendor/lge/g5-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g5-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lge/g5-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g5-common/proprietary/bin/yuvtool:system/bin/yuvtool \
     vendor/lge/g5-common/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
     vendor/lge/g5-common/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
@@ -120,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/lge/g5-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/g5-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
-    vendor/lge/g5-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/nfc_lg.default.so:system/lib64/hw/nfc_lg.default.so \
@@ -136,11 +136,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libLGnfc_config.so:system/lib64/libLGnfc_config.so \
     vendor/lge/g5-common/proprietary/lib64/libLGnfc_jni.so:system/lib64/libLGnfc_jni.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/lge/g5-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/lge/g5-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lge/g5-common/proprietary/lib64/libnfc-nxp-nci.so:system/lib64/libnfc-nxp-nci.so \
     vendor/lge/g5-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/lge/g5-common/proprietary/lib64/libq3d.so:system/lib64/libq3d.so \
-    vendor/lge/g5-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g5-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/lge/g5-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
@@ -161,7 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
     vendor/lge/g5-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
-    vendor/lge/g5-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
@@ -177,7 +177,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libLGnfc_config.so:system/lib/libLGnfc_config.so \
     vendor/lge/g5-common/proprietary/lib/libLGnfc_jni.so:system/lib/libLGnfc_jni.so \
     vendor/lge/g5-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/g5-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g5-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/g5-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/g5-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/g5-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -186,7 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libnfc-nxp-nci.so:system/lib/libnfc-nxp-nci.so \
     vendor/lge/g5-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/g5-common/proprietary/lib/libq3d.so:system/lib/libq3d.so \
-    vendor/lge/g5-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
     vendor/lge/g5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g5-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/g5-common/proprietary/lib/libril.so:system/lib/libril.so \
@@ -240,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/etc/seemp/BDTModels/confidence.cfg:system/vendor/etc/seemp/BDTModels/confidence.cfg \
     vendor/lge/g5-common/proprietary/vendor/etc/seemp/config/app_whitelist.cfg:system/vendor/etc/seemp/config/app_whitelist.cfg \
     vendor/lge/g5-common/proprietary/vendor/etc/seemp/seemp_features.cfg:system/vendor/etc/seemp/seemp_features.cfg \
-    vendor/lge/g5-common/proprietary/vendor/firmware/BCM4345C0_003.001.025.0101.LGE_Alice_NA_ORC.hcd:system/vendor/firmware/BCM4345C0_003.001.025.0101.LGE_Alice_NA_ORC.hcd \
     vendor/lge/g5-common/proprietary/vendor/firmware/BCM4345C0_003.001.025.0104.0142_Alice_ORC.hcd:system/vendor/firmware/BCM4345C0_003.001.025.0104.0142_Alice_ORC.hcd \
     vendor/lge/g5-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
@@ -477,7 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
@@ -904,7 +903,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
