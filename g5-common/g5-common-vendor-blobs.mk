@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/seempd:system/bin/seempd \
     vendor/lge/g5-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g5-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lge/g5-common/proprietary/bin/triton:system/bin/triton \
     vendor/lge/g5-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g5-common/proprietary/bin/yuvtool:system/bin/yuvtool \
     vendor/lge/g5-common/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
@@ -170,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lge/g5-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/g5-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
+    vendor/lge/g5-common/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
     vendor/lge/g5-common/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
     vendor/lge/g5-common/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
