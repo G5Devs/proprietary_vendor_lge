@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lge/g5-common/proprietary/bin/diag_callback_sample:system/bin/diag_callback_sample \
     vendor/lge/g5-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/lge/g5-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/g5-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/g5-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/lge/g5-common/proprietary/bin/fpc_early_loader:system/bin/fpc_early_loader \
@@ -122,6 +123,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/lge/g5-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/g5-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/lge/g5-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/nfc_lg.default.so:system/lib64/hw/nfc_lg.default.so \
@@ -140,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/lge/g5-common/proprietary/lib64/libn2pm.so:system/lib64/libn2pm.so \
     vendor/lge/g5-common/proprietary/lib64/libnfc-nxp-nci.so:system/lib64/libnfc-nxp-nci.so \
     vendor/lge/g5-common/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/lge/g5-common/proprietary/lib64/libq3d.so:system/lib64/libq3d.so \
@@ -147,6 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g5-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/lge/g5-common/proprietary/lib64/libsdmcore.so:system/lib64/libsdmcore.so \
+    vendor/lge/g5-common/proprietary/lib64/libsdmutils.so:system/lib64/libsdmutils.so \
     vendor/lge/g5-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
@@ -163,6 +169,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
     vendor/lge/g5-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+    vendor/lge/g5-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
@@ -187,6 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/g5-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g5-common/proprietary/lib/libmorpho_superzoom.so:system/lib/libmorpho_superzoom.so \
+    vendor/lge/g5-common/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
     vendor/lge/g5-common/proprietary/lib/libnfc-nxp-nci.so:system/lib/libnfc-nxp-nci.so \
     vendor/lge/g5-common/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/lge/g5-common/proprietary/lib/libq3d.so:system/lib/libq3d.so \
@@ -194,6 +203,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/g5-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g5-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/lge/g5-common/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
+    vendor/lge/g5-common/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
     vendor/lge/g5-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g5-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g5-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
