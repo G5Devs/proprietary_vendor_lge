@@ -339,7 +339,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/lge/g5-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libSecureExtAuthJNI.so:system/vendor/lib64/libSecureExtAuthJNI.so \
@@ -355,7 +357,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/g5-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
