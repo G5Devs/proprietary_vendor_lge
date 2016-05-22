@@ -199,9 +199,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:system/vendor/lib/libactuator_bu24333gwl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898122_claf.so:system/vendor/lib/libactuator_lc898122_claf.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
@@ -573,9 +575,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/g5-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lge/g5-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/lge/g5-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/lge/g5-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/lge/g5-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/g5-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/lge/g5-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/lge/g5-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/g5-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
@@ -636,6 +643,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g5-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g5-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/g5-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g5-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/g5-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
@@ -725,7 +733,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/lge/g5-common/proprietary/bin/triton:system/bin/triton \
+    vendor/lge/g5-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
+    vendor/lge/g5-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so
