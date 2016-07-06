@@ -18,6 +18,7 @@
 PRODUCT_PACKAGES += \
     TimeService \
     libtime_genoff \
-    libTimeService
+    libTimeService \
+    com.qualcomm.location
 
 $(call inherit-product, vendor/lge/g5-common/g5-common-vendor-blobs.mk)
