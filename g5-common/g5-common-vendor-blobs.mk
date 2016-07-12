@@ -293,6 +293,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lge/g5-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lge/g5-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/lge/g5-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/g5-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/g5-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/g5-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -337,7 +338,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lge/g5-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/g5-common/proprietary/bin/seempd:system/bin/seempd \
     vendor/lge/g5-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/lge/g5-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
@@ -529,11 +529,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
-    vendor/lge/g5-common/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/lge/g5-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/lge/g5-common/proprietary/bin/iop:system/bin/iop \
     vendor/lge/g5-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/g5-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
-    vendor/lge/g5-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lge/g5-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/lge/g5-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/lge/g5-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -681,7 +679,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/lge/g5-common/proprietary/bin/triton:system/bin/triton \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
