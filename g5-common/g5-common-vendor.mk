@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
     QtiTetherService \
     shutdownlistener
 
+# Display
+PRODUCT_PACKAGES += \
+    libsdm-disp-apis \
+
 # Location
 PRODUCT_PACKAGES += \
     com.qualcomm.location
