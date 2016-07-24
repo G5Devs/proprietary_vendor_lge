@@ -731,7 +731,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     qcnvitems \
-    qcrilhook \
-    dsi_config \
-    netmgr_config \
-    qmi_config
+    qcrilhook
