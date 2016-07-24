@@ -21,10 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lge/g5-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/g5-common/proprietary/bin/fpc_early_loader:system/bin/fpc_early_loader \
+    vendor/lge/g5-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/lge/g5-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/g5-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/g5-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/lge/g5-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/lge/g5-common/proprietary/bin/imswmsproxy:system/bin/imswmsproxy \
     vendor/lge/g5-common/proprietary/bin/iop:system/bin/iop \
     vendor/lge/g5-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
@@ -53,8 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
     vendor/lge/g5-common/proprietary/etc/camera/msm8996_camera_LG.xml:system/etc/camera/msm8996_camera_LG.xml \
     vendor/lge/g5-common/proprietary/etc/camera/t4ka3_chromatix.xml:system/etc/camera/t4ka3_chromatix.xml \
-    vendor/lge/g5-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/lge/g5-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/lge/g5-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/lge/g5-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/lge/g5-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
@@ -80,45 +80,87 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/lge/g5-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/g5-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lge/g5-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/lge/g5-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/lge/g5-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
     vendor/lge/g5-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
     vendor/lge/g5-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/lge/g5-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
     vendor/lge/g5-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
     vendor/lge/g5-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/lge/g5-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/lge/g5-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/lge/g5-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/lge/g5-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/lge/g5-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/lge/g5-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/lge/g5-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/lge/g5-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/lge/g5-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/lge/g5-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lge/g5-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/g5-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lge/g5-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/lge/g5-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/lge/g5-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/lge/g5-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/lge/g5-common/proprietary/lib/hw/camera.vendor.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+    vendor/lge/g5-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
+    vendor/lge/g5-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
+    vendor/lge/g5-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
+    vendor/lge/g5-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/g5-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
+    vendor/lge/g5-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
+    vendor/lge/g5-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/lge/g5-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
+    vendor/lge/g5-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
+    vendor/lge/g5-common/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
+    vendor/lge/g5-common/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
+    vendor/lge/g5-common/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
+    vendor/lge/g5-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/g5-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/g5-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/lge/g5-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/lge/g5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/lge/g5-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/g5-common/proprietary/lib/libmorpho_superzoom.so:system/lib/libmorpho_superzoom.so \
+    vendor/lge/g5-common/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
+    vendor/lge/g5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lge/g5-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/g5-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/lge/g5-common/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
+    vendor/lge/g5-common/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
+    vendor/lge/g5-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
+    vendor/lge/g5-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     vendor/lge/g5-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
-    vendor/lge/g5-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g5-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/lge/g5-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
+    vendor/lge/g5-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
+    vendor/lge/g5-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g5-common/proprietary/lib64/libn2pm.so:system/lib64/libn2pm.so \
@@ -141,48 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
-    vendor/lge/g5-common/proprietary/lib/hw/camera.vendor.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
-    vendor/lge/g5-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
-    vendor/lge/g5-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-    vendor/lge/g5-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
-    vendor/lge/g5-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
-    vendor/lge/g5-common/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
-    vendor/lge/g5-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
-    vendor/lge/g5-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
-    vendor/lge/g5-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
-    vendor/lge/g5-common/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
-    vendor/lge/g5-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/lge/g5-common/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
-    vendor/lge/g5-common/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
-    vendor/lge/g5-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/g5-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/g5-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lge/g5-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lge/g5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lge/g5-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/lge/g5-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    vendor/lge/g5-common/proprietary/lib/libmorpho_superzoom.so:system/lib/libmorpho_superzoom.so \
-    vendor/lge/g5-common/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
-    vendor/lge/g5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lge/g5-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/g5-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/lge/g5-common/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
-    vendor/lge/g5-common/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
-    vendor/lge/g5-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
-    vendor/lge/g5-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
-    vendor/lge/g5-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
-    vendor/lge/g5-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     vendor/lge/g5-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/lge/g5-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/g5-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
@@ -190,11 +190,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/g5-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/lge/g5-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile10.conf:system/vendor/etc/perf-profile10.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile11.conf:system/vendor/etc/perf-profile11.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile12.conf:system/vendor/etc/perf-profile12.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile13.conf:system/vendor/etc/perf-profile13.conf \
-    vendor/lge/g5-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
@@ -204,184 +204,35 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile8.conf:system/vendor/etc/perf-profile8.conf \
     vendor/lge/g5-common/proprietary/vendor/etc/perf-profile9.conf:system/vendor/etc/perf-profile9.conf \
     vendor/lge/g5-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmare-1.1.so:system/vendor/lib64/libmare-1.1.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmare-cpu-1.1.so:system/vendor/lib64/libmare-cpu-1.1.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libQBLAS-0.13.0.so:system/vendor/lib64/libQBLAS-0.13.0.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmiservices_ext.so:system/vendor/lib64/libqmiservices_ext.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_wms_client_helper.so:system/vendor/lib64/libqmi_wms_client_helper.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libSecureExtAuthJNI.so:system/vendor/lib64/libSecureExtAuthJNI.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libseemp_binder.so:system/vendor/lib64/libseemp_binder.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libSeempMsgService.so:system/vendor/lib64/libSeempMsgService.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libseempnative.so:system/vendor/lib64/libseempnative.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_thresh.so:system/vendor/lib64/libsensor_thresh.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/lge/g5-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/lge/g5-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g5-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/g5-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/g5-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libQBLAS-0.13.0.so:system/vendor/lib/libQBLAS-0.13.0.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libSeempMsgService.so:system/vendor/lib/libSeempMsgService.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -393,8 +244,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898122_claf.so:system/vendor/lib/libactuator_lc898122_claf.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898122_claf.so:system/vendor/lib/libactuator_lc898122_claf.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -404,10 +255,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
@@ -421,26 +270,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_liveshot.so:system/vendor/lib/libchromatix_imx234_cpp_liveshot.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_panorama.so:system/vendor/lib/libchromatix_imx234_cpp_panorama.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_preview.so:system/vendor/lib/libchromatix_imx234_cpp_preview.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_raw_hdr_liveshot.so:system/vendor/lib/libchromatix_imx234_cpp_raw_hdr_liveshot.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_raw_hdr.so:system/vendor/lib/libchromatix_imx234_cpp_raw_hdr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_raw_hdr_liveshot.so:system/vendor/lib/libchromatix_imx234_cpp_raw_hdr_liveshot.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_snapshot.so:system/vendor/lib/libchromatix_imx234_cpp_snapshot.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_default_preview_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_default_preview_bu24333gwl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_default_video_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_default_video_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_default_video.so:system/vendor/lib/libchromatix_imx234_default_video.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_default_video_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_default_video_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hdr_snapshot_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hdr_snapshot_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hdr_video_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hdr_video_bu24333gwl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_120_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hfr_120_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_120.so:system/vendor/lib/libchromatix_imx234_hfr_120.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_60_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hfr_60_bu24333gwl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_120_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hfr_120_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_60.so:system/vendor/lib/libchromatix_imx234_hfr_60.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_90_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hfr_90_bu24333gwl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_60_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hfr_60_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_90.so:system/vendor/lib/libchromatix_imx234_hfr_90.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_hfr_90_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_hfr_90_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_panorama_preview_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_panorama_preview_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_postproc.so:system/vendor/lib/libchromatix_imx234_postproc.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_preview.so:system/vendor/lib/libchromatix_imx234_preview.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_raw_hdr_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_raw_hdr_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_raw_hdr.so:system/vendor/lib/libchromatix_imx234_raw_hdr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_raw_hdr_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_raw_hdr_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:system/vendor/lib/libchromatix_imx234_snapshot.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_zsl_preview_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_zsl_preview_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_imx234_zsl_video_bu24333gwl.so:system/vendor/lib/libchromatix_imx234_zsl_video_bu24333gwl.so \
@@ -482,10 +331,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_vt.so:system/vendor/lib/libchromatix_t4ka3_vt.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_zsl_preview.so:system/vendor/lib/libchromatix_t4ka3_zsl_preview.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_zsl_video.so:system/vendor/lib/libchromatix_t4ka3_zsl_video.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -501,13 +350,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libGPTEE.so:system/vendor/lib/libGPTEE.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -518,14 +363,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/lge/g5-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/lge/g5-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lge/g5-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmare-1.1.so:system/vendor/lib/libmare-1.1.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmare-cpu-1.1.so:system/vendor/lib/libmare-cpu-1.1.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_aec_lg.so:system/vendor/lib/libmmcamera2_aec_lg.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_awb_lg.so:system/vendor/lib/libmmcamera2_awb_lg.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -533,8 +383,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
@@ -557,10 +407,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_hvx_zzHDR.so:system/vendor/lib/libmmcamera_hvx_zzHDR.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imx234_eeprom.so:system/vendor/lib/libmmcamera_imx234_eeprom.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imx234.so:system/vendor/lib/libmmcamera_imx234.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imx268_eeprom.so:system/vendor/lib/libmmcamera_imx268_eeprom.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imx234_eeprom.so:system/vendor/lib/libmmcamera_imx234_eeprom.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imx268.so:system/vendor/lib/libmmcamera_imx268.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_imx268_eeprom.so:system/vendor/lib/libmmcamera_imx268_eeprom.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_isp_abf47.so:system/vendor/lib/libmmcamera_isp_abf47.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
@@ -602,55 +452,43 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_isp_snr47.so:system/vendor/lib/libmmcamera_isp_snr47.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_t4ka3_eeprom.so:system/vendor/lib/libmmcamera_t4ka3_eeprom.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_t4ka3.so:system/vendor/lib/libmmcamera_t4ka3.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_t4ka3_eeprom.so:system/vendor/lib/libmmcamera_t4ka3_eeprom.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libois_bu24333gwl.so:system/vendor/lib/libois_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libQBLAS-0.13.0.so:system/vendor/lib/libQBLAS-0.13.0.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libqmiservices_ext.so:system/vendor/lib/libqmiservices_ext.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqmi_wms_client_helper.so:system/vendor/lib/libqmi_wms_client_helper.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libqmiservices_ext.so:system/vendor/lib/libqmiservices_ext.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
@@ -661,21 +499,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/g5-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/g5-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libseemp_binder.so:system/vendor/lib/libseemp_binder.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libSeempMsgService.so:system/vendor/lib/libSeempMsgService.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libseempnative.so:system/vendor/lib/libseempnative.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsensor_lge_cal.so:system/vendor/lib/libsensor_lge_cal.so \
@@ -685,9 +519,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
@@ -698,15 +530,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/g5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
+    vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libAMF_hexagon_skel.so:system/vendor/lib/rfsa/adsp/libAMF_hexagon_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_stats.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_stats.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libAMF_hexagon_skel.so:system/vendor/lib/rfsa/adsp/libAMF_hexagon_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libmare_hexagon_skel.so:system/vendor/lib/rfsa/adsp/libmare_hexagon_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
     vendor/lge/g5-common/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
@@ -720,19 +552,187 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/g5-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lge/g5-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libQBLAS-0.13.0.so:system/vendor/lib64/libQBLAS-0.13.0.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libSecureExtAuthJNI.so:system/vendor/lib64/libSecureExtAuthJNI.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libSeempMsgService.so:system/vendor/lib64/libSeempMsgService.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmare-1.1.so:system/vendor/lib64/libmare-1.1.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmare-cpu-1.1.so:system/vendor/lib64/libmare-cpu-1.1.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmi_wms_client_helper.so:system/vendor/lib64/libqmi_wms_client_helper.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqmiservices_ext.so:system/vendor/lib64/libqmiservices_ext.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libseemp_binder.so:system/vendor/lib64/libseemp_binder.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libseempnative.so:system/vendor/lib64/libseempnative.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_thresh.so:system/vendor/lib64/libsensor_thresh.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/lge/g5-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libTimeService \
     libsdm-disp-apis \
     libtime_genoff \
-    libTimeService \
     QtiTelephonyService \
-    shutdownlistener \
     TimeService \
+    shutdownlistener \
     CNEService \
+    QtiTetherService \
     com.qualcomm.location \
     dpmserviceapp \
-    QtiTetherService \
     qcnvitems \
     qcrilhook \
     dsi_config \
