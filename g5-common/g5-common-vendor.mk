@@ -136,8 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g5-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g5-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    vendor/lge/g5-common/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
-    vendor/lge/g5-common/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
     vendor/lge/g5-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g5-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/g5-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
@@ -167,8 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g5-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/lge/g5-common/proprietary/lib64/libsdmcore.so:system/lib64/libsdmcore.so \
-    vendor/lge/g5-common/proprietary/lib64/libsdmutils.so:system/lib64/libsdmutils.so \
     vendor/lge/g5-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g5-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
