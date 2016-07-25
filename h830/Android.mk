@@ -18,4 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),h830)
 
+
+ifeq ($(QCPATH),)
+endif
 endif
