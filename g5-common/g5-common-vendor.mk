@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/hw/camera.vendor.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-    vendor/lge/g5-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
@@ -126,11 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
     vendor/lge/g5-common/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
     vendor/lge/g5-common/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
-    vendor/lge/g5-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/g5-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/g5-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g5-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lge/g5-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/g5-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/g5-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g5-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -155,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     vendor/lge/g5-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    vendor/lge/g5-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g5-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/g5-common/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
@@ -164,11 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
-    vendor/lge/g5-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/lge/g5-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/lge/g5-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/lge/g5-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lge/g5-common/proprietary/lib64/libn2pm.so:system/lib64/libn2pm.so \
     vendor/lge/g5-common/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/lge/g5-common/proprietary/lib64/libril.so:system/lib64/libril.so \
@@ -367,6 +357,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/lge/g5-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/g5-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/lge/g5-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
@@ -728,6 +719,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
     libTimeService \
     libsdm-disp-apis \
     libtime_genoff \
