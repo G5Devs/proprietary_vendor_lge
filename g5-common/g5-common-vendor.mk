@@ -26,6 +26,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/g5-common/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/g5-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/g5-common/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/2_film.dat:system/etc/camera/film/2_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/3_film.dat:system/etc/camera/film/3_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/4_film.dat:system/etc/camera/film/4_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/5_film.dat:system/etc/camera/film/5_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/6_film.dat:system/etc/camera/film/6_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/7_film.dat:system/etc/camera/film/7_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/8_film.dat:system/etc/camera/film/8_film.dat \
+    vendor/lge/g5-common/proprietary/etc/camera/film/9_film.dat:system/etc/camera/film/9_film.dat \
     vendor/lge/g5-common/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
     vendor/lge/g5-common/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
     vendor/lge/g5-common/proprietary/etc/camera/msm8996_camera_LG.xml:system/etc/camera/msm8996_camera_LG.xml \
